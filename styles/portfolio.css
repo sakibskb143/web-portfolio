@@ -105,6 +105,11 @@ nav a {
 }
 
 /* about section */
+main{
+  max-width: 1140px;
+  margin:0 auto;
+}
+
 .about {
   border-radius: 10px;
   background: #FFF8F3;
@@ -129,4 +134,26 @@ nav a {
 
   font-weight: 400;
 
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+
+}
+.about info-title{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+.about info-data{
+  color:  #474747;
+/* font-family: "Open Sans"; */
+font-size: 20px;
+/* font-style: normal; */
+font-weight: 700;
+/* line-height: 30px; */
 }
