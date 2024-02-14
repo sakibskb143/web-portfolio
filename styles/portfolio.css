@@ -13,7 +13,7 @@ body {
 .btn-primary {
   border-radius: 5px;
   background: #FD6E0A;
-  border:none;
+  border: none;
 
   color: #FFF;
   font-size: 20px;
@@ -25,29 +25,50 @@ body {
 /* nav bar css  */
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .nav-title {
   color: #181818;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 800;
 
 }
 
 nav>ul {
   display: flex;
-  align-items:cen;
- 
+  align-items: center;
+
 }
 
 nav li {
   list-style: none;
   margin-right: 50px;
-  
+
+
 }
 
 nav a {
   text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400px;
+}
+
+/* header sytle */
+.header {
+  background-color: #FFF8F3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+ .banner .hardy-picture {
+  
+   width: 500px;
+
 }
